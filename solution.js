@@ -1,6 +1,8 @@
 const apples=20;//0
 const oranges=30;
-
+/**
+ * 
+ */
 const applesGleighOranges=apples===oranges;
 const applesNichtGleichOranges=apples!==oranges;
 const applesGreaterOranges=apples>oranges;
@@ -16,7 +18,7 @@ const exercise6=mangos*apples>mangos+oranges;
 console.log({exercise6});
 const exercise7=apples-mangos<oranges/mangos;
 console.log({exercise7});//7
-const exercise8=mangos===apples===oranges;
+const exercise8=mangos===apples&&mangos===oranges;
 console.log({exercise8});//8
 const exercise9=apples%mangos===oranges%mangos;
 console.log({exercise9});//9
